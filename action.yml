@@ -9,7 +9,7 @@ outputs:
   time: # id of output
     description: 'The time we greeted you'
 runs:
-uses: actions/checkout@v1
+  uses: actions/checkout@v1
   using: 'docker'
   image: 'dockerfile'
   args:
